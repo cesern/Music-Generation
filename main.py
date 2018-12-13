@@ -31,19 +31,22 @@ def get_files(path):
 
 if __name__ == "__main__":
     
-    #default directory for musics
-    path = "EDEN-midi"
+    #directorio para los midis de entrada por default
+    path = "input"
+    #el nombre de la salida por default
     output = "output"
-
+    #toma el path de la entrada si es que se proporciona
     if(args.directory):
         path = args.directory
-    
+    #toma el nombre de la salida si es que se proporciona
     if(args.output):
         output = args.output
-        
+    #obtiene las canciones en midi    
     songs = get_files(path)
+
     if(not os.path.isdir("generated")):
         os.mkdir("generated")
 
     neuralnet.menu(songs)
+    #crea la cancion
     merge.menu(output)
