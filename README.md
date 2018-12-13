@@ -9,7 +9,7 @@ Puedes pasar como argumento el directorio con los archivos .mid, en caso de no h
 ```
 Se generara un archivo de salida en formato .mp3 para que puedas escucharlo!.
 
-## Dependencias
+### Dependencias
 ```
     sudo apt-get install timidity
 
@@ -19,7 +19,7 @@ Se generara un archivo de salida en formato .mp3 para que puedas escucharlo!.
 
     sudo pip install msgpack
 ```    
-# Usage
+### Uso
 ```
     usage: main.py [-h] [-d] [-o]
 
