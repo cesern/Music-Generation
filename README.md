@@ -1,8 +1,14 @@
-# Piano Music Generation con RNN y tensorflow
+# Generando música de piano con RNN
 
-Generador de música de piano basado en archivos .mid.
+Generador de música de piano con RNN y TensorFlow, fork de [Music-Generation](https://github.com/tarcisio-marinho/Music-Generation), entrena utilizando archivos MIDI y genera un archivo de salida mp3.
 
 Puedes pasar como argumento el directorio con los archivos .mid, en caso de no hacerlo usara por default los archivos del directorio _input_. También puedes pasar el nombre del archivo que se generará, si no, se llamara output.
+
+Aunque el poder de mi equipo de computo no es nada "potente" el proceso desde procesar los archivos MIDI hasta generar el mp3 fue bastante rápido. Con 173 archivos MIDI y 200 epoch, el tiempo fue de no mas de 12 minutos.
+
+## Resultados
+
+![resultado](results/Pop.mp3)
 
 ```
     python main.py -d <input_path> -o name_output_file
@@ -26,9 +32,8 @@ Se generara un archivo de salida en formato .mp3 para que puedas escucharlo!.
     Generate Piano music.
 
     optional arguments:
-      -h, --help         show this help message and exit
-      -d , --directory   the music to be trained should be inside this dir, if not
-                         specified, EDEN-midi will be the input
-      -o , --output      Output music as an .mp3 file, if not specified, will be
-                         output.mp3
+      -h, --help         Muestra este mensaje de salida y termina.
+      -d , --directory   La musica para entrenar va aqui, si no se proporciona se utilizara la del directorio input
+      -o , --output      El nombre del archivo de la musica de salida, si no se proporcona generará output.mp3
 ```
+## Conclusiones
