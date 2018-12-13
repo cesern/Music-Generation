@@ -9,7 +9,7 @@ Aunque el poder de mi equipo de computo no es nada "potente" el proceso desde pr
 ## Resultados
 
 ![resultado](results/Pop.mp3)
-
+<audio src="results/Pop.mp3" controls preload></audio>
 ```
     python main.py -d <input_path> -o name_output_file
 ```
