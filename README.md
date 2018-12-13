@@ -7,9 +7,15 @@ Puedes pasar como argumento el directorio con los archivos .mid, en caso de no h
 Aunque el poder de mi equipo de computo no es nada "potente" el proceso desde procesar los archivos MIDI hasta generar el mp3 fue bastante rápido. Con 173 archivos MIDI y 200 epoch, el tiempo fue de no mas de 12 minutos.
 
 ## Resultados
+#### Generado con: 
+* [Musica Random](results/Random.mp3)
+* [Música de los Beatles](results/Beatles.mp3)
+* [Música Pop](results/Pop.mp3)
+* [Música de Johann Sebastian Bach, 9 ejemplos](results/bach9.mp3)
+* [Música de Johann Sebastian Bach, 25 ejemplos](results/bach25.mp3)
+* [Música de Johann Sebastian Bach, 50 ejemplos](results/bach50.mp3)
+* [Música de Johann Sebastian Bach, 173 ejemplos](results/bachMod.mp3)
 
-![resultado](results/Pop.mp3)
-<audio src="results/Pop.mp3" controls preload></audio>
 ```
     python main.py -d <input_path> -o name_output_file
 ```
