@@ -8,7 +8,9 @@ Aunque el poder de mi equipo de computo no es nada "potente" el proceso desde pr
 
 ## Resultados
 #### Generado con: 
-* [Musica Random](results/Random.mp3)
+https://github.com/cesern/Music-Generation/raw/master/results/Beatles.mp3
+* [Musica Random](results/random.mp3)
+[lol](https://github.com/cesern/Music-Generation/raw/master/results/Beatles.mp3)
 * [Música de los Beatles](results/Beatles.mp3)
 * [Música Pop](results/Pop.mp3)
 * [Música de Johann Sebastian Bach, 9 ejemplos](results/bach9.mp3)
