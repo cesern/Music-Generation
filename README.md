@@ -1,24 +1,16 @@
-# Piano Music Generation with RNN with tensorflow
+# Piano Music Generation con RNN y tensorflow
 
-You can generate new piano music based with your prefered artists.
+Generador de música de piano basado en archivos .mid.
 
-Pass as argument the path with the .mid files to the main.
+Puedes pasar como argumento el directorio con los archivos .mid, en caso de no hacerlo usara por default los archivos del directorio _input_. También puedes pasar el nombre del archivo que se generará, si no, se llamara output.
 
-If none argument is passed, it will use the EDEN playlist.
+```
+    python main.py -d <input_path> -o name_output_file
+```
+Se generara un archivo de salida en formato .mp3 para que puedas escucharlo!.
 
-    python main.py -d <path>
-
-
-You can also pass the name of the file, if not specified, it will be "output" 
-
-    python main.py -o output_file
-
-It will generate the output as .mp3 so you can listen to it!
-
-If the quality of the output isn't that good, you can feed the program with more music.
-
-# Dependencies
-
+## Dependencias
+```
     sudo apt-get install timidity
 
     sudo apt-get install ffmpeg
@@ -26,9 +18,9 @@ If the quality of the output isn't that good, you can feed the program with more
     sudo pip install python-midi numpy msgpack tqdm tensorflow
 
     sudo pip install msgpack
-    
+```    
 # Usage
-
+```
     usage: main.py [-h] [-d] [-o]
 
     Generate Piano music.
@@ -39,3 +31,4 @@ If the quality of the output isn't that good, you can feed the program with more
                          specified, EDEN-midi will be the input
       -o , --output      Output music as an .mp3 file, if not specified, will be
                          output.mp3
+```
