@@ -7,10 +7,8 @@ Puedes pasar como argumento el directorio con los archivos .mid, en caso de no h
 Aunque el poder de mi equipo de computo no es nada "potente" el proceso desde procesar los archivos MIDI hasta generar el mp3 fue bastante rápido. Con 173 archivos MIDI y 200 epoch, el tiempo fue de no mas de 12 minutos.
 
 ## Resultados
-#### Generado con: 
-https://github.com/cesern/Music-Generation/raw/master/results/Beatles.mp3
+#### Ejemplos generado con esta red: 
 * [Musica Random](results/random.mp3)
-[lol](https://github.com/cesern/Music-Generation/raw/master/results/Beatles.mp3)
 * [Música de los Beatles](results/Beatles.mp3)
 * [Música Pop](results/Pop.mp3)
 * [Música de Johann Sebastian Bach, 9 ejemplos](results/bach9.mp3)
